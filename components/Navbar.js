@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Link from 'next/link'
+import Image from 'next/image'
 const Nav = styled.nav`
         height: 80px;
         background: #000;
@@ -12,7 +13,7 @@ const Nav = styled.nav`
 /*
 const Nav = styled.nav`
   height: 80px;
-  background: #000;
+  background: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,7 +28,11 @@ const Navbar = () => {
     <Nav>
       <div>
               <Link href="/" passHref>
-                      <StyledLink>NXT</StyledLink>
+                      <StyledLink>
+                        <a>
+                          <Image src="/B logo.ico" width={90} height={90}></Image>
+                        </a>
+                      </StyledLink>
               </Link>
       </div>
       <div>
