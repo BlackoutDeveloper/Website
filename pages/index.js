@@ -7,10 +7,10 @@ const Hero = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #fff;
+  background: #000;
 `;
 const Heading = styled.h1`
-  color: #000;
+  color: #e00;
   font-size: 10rem;
   font-weight: 900;
 `

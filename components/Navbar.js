@@ -3,8 +3,8 @@ import styled from 'styled-components'
 import Link from 'next/link'
 const Nav = styled.nav`
         height: 80px;
-        background: #22e;
-        color: #fff;
+        background: #000;
+        color: #e00;
         display: flex;
         justify-content: space-between;
         align-items: center
@@ -16,7 +16,7 @@ const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #fff;
+  color: #e00;
 `;
 */
 const StyledLink = styled.a`
