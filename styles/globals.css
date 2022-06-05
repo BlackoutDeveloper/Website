@@ -20,3 +20,9 @@ a {
   position: relative;
 }
 
+.centralisedpower {
+  position: absolute;
+  top: 241.219144;
+  right: 460;
+  bottom: 241.219144;
+}

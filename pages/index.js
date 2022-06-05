@@ -20,9 +20,14 @@ export default function Home() {
       <Head>
         <link rel="icon" href="/B logo.ico" />
       </Head>
-      <Hero>
-        <Heading>BLACKOUT</Heading>
-      </Hero>
+      <div 
+        style={{
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
+        <Image src="/bitmap.png" height={270.78085642317} width={1000}></Image>
+      </div>
     </>
     
   )

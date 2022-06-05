@@ -30,7 +30,7 @@ const Navbar = () => {
               <Link href="/" passHref>
                       <StyledLink>
                         <a>
-                          <Image src="/B logo.ico" width={90} height={90}></Image>
+                          <Image src="/B logo.ico" width={90} height={90} ></Image>
                         </a>
                       </StyledLink>
               </Link>
