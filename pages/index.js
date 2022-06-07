@@ -23,10 +23,12 @@ export default function Home() {
       <div>
         <Image src="/indexbg.jpg" layout='fill'></Image>
       </div>
-      <div style={{position:"fixed",left:"50%",top:"40%",transform: "translate(-50%, -50%)"}}>
-        <Image src="/bitmap.png" height={270.78085642317} width={1000}></Image>
+      <div style={{position:"absolute",left:"22%",top:"0%"}}>
+        <Image src="/bitmap.png" width={1123.4108527132} height={600}class="blackoutBanner"></Image>
       </div>
-      
+      <div style={{position:"fixed",left:"25%",top:"55%"}}>
+        <Image src="/OpnerBracket.png" height={200} width={220.38709677419} ></Image>
+      </div>
     </>
     
   )
@@ -40,7 +42,5 @@ export default function Home() {
       /* div style={{display: "flex",justifyContent: "center",}} 
       
       
-      <div style={{position:"fixed"}}>
-        <Image src="/OpnerBracket.png" height={775} width={854}></Image>
-      </div>*/
+      */
       

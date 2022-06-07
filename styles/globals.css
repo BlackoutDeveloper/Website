@@ -20,3 +20,8 @@ a {
   align-items: "center";
   justify-content: "center";
 }
+
+.blackoutBanner{ 
+  width: 1em; 
+  height: 1em 
+}
