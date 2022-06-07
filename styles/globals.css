@@ -15,14 +15,8 @@ a {
   box-sizing: border-box;
 }
 
-.container {
-  min-height: 100vh;
-  position: relative;
-}
-
-.centralisedpower {
-  position: absolute;
-  top: 241.219144;
-  right: 460;
-  bottom: 241.219144;
+.indexCenter {
+  display: "flex";
+  align-items: "center";
+  justify-content: "center";
 }

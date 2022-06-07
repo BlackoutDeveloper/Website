@@ -20,15 +20,18 @@ export default function Home() {
       <Head>
         <link rel="icon" href="/B logo.ico" />
       </Head>
-      <div 
-        style={{
-          display: "flex",
-          justifyContent: "center",
-        }}
-      >
+      <div style={{position:"absolute",left:"50%",top:"50%",transform: "translate(-50%, -50%)"}}>
         <Image src="/bitmap.png" height={270.78085642317} width={1000}></Image>
       </div>
     </>
     
   )
-}
+}/*
+<div>
+        <Image src="/bitmap.png" height={270.78085642317} width={1000} style="top:50"></Image>
+      </div>
+
+
+      
+      /* div style={{display: "flex",justifyContent: "center",}} */
+      
