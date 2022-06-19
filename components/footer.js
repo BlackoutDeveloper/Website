@@ -15,7 +15,7 @@ const FooterSection = styled.div`
 const Footer = () => {
   return (
     <FooterSection>
-      <p>Developed By Blackout</p>
+      <p className='footerClass'>Developed By Blackout</p>
     </FooterSection>
   )
 }

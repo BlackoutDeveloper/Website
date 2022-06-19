@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from '../components/Navbar'
 import styled from 'styled-components'
+import Link from 'next/link'
 const Hero = styled.div`
   height: 90vh;
   display: flex;
@@ -23,7 +24,7 @@ export default function Home() {
       <div>
         <Image src="/indexbg.svg" layout='fill'></Image>
       </div>
-      <div style={{position:"fixed",left:"22%",top:"1%"}}>
+      <div style={{position:"fixed",left:"21%",top:"1%"}}>
         <Image src="/bitmap.png" width={1123.4108527132} height={600}></Image>
       </div>
       <div style={{position:"fixed",left:"15%",top:"55%"}}>
@@ -32,7 +33,26 @@ export default function Home() {
       <div style={{position:"fixed",left:"72%",top:"55%"}}>
         <Image src="/CloseBracket.png" height={200} width={220.38709677419}></Image>
       </div>
-      
+      <div style={{position:"fixed",left:"25%",top:"53.7%"}} className="githubIcon">
+        <Link href="https://github.com/BlackoutDeveloper">
+          <Image src="/github.svg" height={210} width={250} layout="fixed"></Image>
+        </Link>
+      </div>
+      <div style={{position:"fixed",left:"36%",top:"53.4%"}} className="infoIcon">
+        <Link href="/about">
+          <Image src="/info.png" height={230} width={250} layout="fixed"></Image>
+        </Link>
+      </div>
+      <div style={{position:"fixed",left:"47%",top:"51.6%"}} className="contactIcon">
+        <Link href="/contact">
+          <Image src="/contacto.png" height={260} width={270} layout="fixed"></Image>
+        </Link>
+      </div>
+      <div style={{position:"fixed",left:"59.5%",top:"51%"}} className="rwwIcon">
+        <Link href="/rww">
+          <Image src="/rww.png" height={270} width={260}></Image>
+        </Link>
+      </div>
     </>
     
   )

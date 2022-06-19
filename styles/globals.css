@@ -25,3 +25,22 @@ a {
   width: 1em; 
   height: 1em 
 }
+
+.githubIcon:hover {
+  cursor: pointer;
+}
+.infoIcon:hover {
+  cursor: pointer;
+  
+}
+.contactIcon:hover {
+  cursor: pointer;
+  
+}
+.rwwIcon:hover {
+  cursor: pointer;
+}
+.footerClass{
+  font-family: monospace;
+  font-size: 40px;
+}
