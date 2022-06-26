@@ -1,13 +1,17 @@
 import Navbar from "./Navbar"
 import Footer from "./footer"
-import Triangulr from "triangulr"
-import React, {useRef, useEffect} from "react"
+import Background from "./backdrop"
 export default function Layout({children}) {
         return (
-                <div>
-                        <Navbar />
-                        {children}
-                        <Footer />
-                </div>
+                <>
+                        <div>
+                                <Background />
+                        </div>
+                        <div>
+                                <Navbar />
+                                {children}
+                                <Footer />
+                        </div>
+                </>
         )
 }

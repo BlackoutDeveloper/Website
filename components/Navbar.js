@@ -21,12 +21,12 @@ const Nav = styled.nav`
 `;
 */
 const StyledLink = styled.a`
-  padding: 0rem 2rem;
+  padding: 0rem 0.5rem;
 `;
 const Navbar = () => {
   return (
     <Nav>
-      <div>
+      <div className='floatAboveEverything'>
               <Link href="/" passHref>
                       
                         <StyledLink>
@@ -35,15 +35,21 @@ const Navbar = () => {
                       
               </Link>
       </div>
-      <div>
+      <div className='floatAboveEverything'>
         <Link href="/" passHref>
-          <StyledLink>Home</StyledLink>
+          <StyledLink>
+            <Image src="/Home.png" width={244} height={90} layout="fixed"></Image>
+          </StyledLink>
         </Link>
         <Link href="/about" passHref>
-          <StyledLink>About</StyledLink>
+          <StyledLink>
+          <Image src="/About.png" width={241} height={90} layout="fixed"></Image>
+          </StyledLink>
         </Link>
         <Link href="/contact" passHref>
-          <StyledLink>Contact Me</StyledLink>
+          <StyledLink>
+          <Image src="/ContactNavig.png" width={285} height={90} layout="fixed"></Image>
+          </StyledLink>
         </Link>
       </div>
     </Nav>

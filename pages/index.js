@@ -21,9 +21,7 @@ export default function Home() {
       <Head>
         <link rel="icon" href="/B logo.ico" />
       </Head>
-      <div>
-        <Image src="/indexbg.svg" layout='fill'></Image>
-      </div>
+      
       <div style={{position:"fixed",left:"21%",top:"1%"}}>
         <Image src="/bitmap.png" width={1123.4108527132} height={600}></Image>
       </div>
