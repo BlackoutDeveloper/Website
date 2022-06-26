@@ -44,3 +44,6 @@ a {
   font-family: monospace;
   font-size: 40px;
 }
+.floatAboveEverything {
+	z-index: 1000;
+}
