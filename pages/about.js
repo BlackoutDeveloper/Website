@@ -7,7 +7,7 @@ export default function About() {
       <Head>
         <link rel="icon" href="/B logo.ico" />
       </Head>
-      <h1>Testing</h1>
+      
     </>
   )
 }
