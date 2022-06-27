@@ -57,9 +57,3 @@ const Navbar = () => {
 };
 
 export default Navbar
-
-/*
-<a>
-                          <Image src="/B logo.ico" width={90} height={90} ></Image>
-                        </a>
-                      */
