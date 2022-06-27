@@ -25,7 +25,18 @@ a {
   width: 1em; 
   height: 1em 
 }
-
+.githubIcon {
+  z-index: 1001;
+}
+.infoIcon {
+  z-index: 1001;
+}
+.contactIcon {
+  z-index: 1001;
+}
+.rwwIcon {
+  z-index: 1001;
+}
 .githubIcon:hover {
   cursor: pointer;
 }
@@ -46,4 +57,18 @@ a {
 }
 .floatAboveEverything {
 	z-index: 1000;
+}
+.homeNav {
+  background: url("/public/Home.png") no-repeat;
+  width: 244px;
+  height: 90px;
+  cursor: default;
+  z-index: 1000;
+}
+.homeNav:hover {
+  cursor: pointer;
+  background: url("/public/HomeHover.png");
+}
+.indexpos {
+  z-index: 1001;
 }

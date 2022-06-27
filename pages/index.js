@@ -21,14 +21,16 @@ export default function Home() {
       <Head>
         <link rel="icon" href="/B logo.ico" />
       </Head>
-      
-      <div style={{position:"fixed",left:"21%",top:"1%"}}>
-        <Image src="/bitmap.png" width={1123.4108527132} height={600}></Image>
+      <div className='floatAboveEverything'>
+        <Image src="/indexbg.svg" layout='fill'></Image>
       </div>
-      <div style={{position:"fixed",left:"15%",top:"55%"}}>
+      <div style={{position:"fixed",left:"33%",top:"1%"}} className="indexpos">
+        <Image src="/B icon.png" width={550} height={563}></Image>
+      </div> 
+      <div style={{position:"fixed",left:"15%",top:"55%"}} className="indexpos">
         <Image src="/OpnerBracket.png" height={200} width={220.38709677419} ></Image>
       </div>
-      <div style={{position:"fixed",left:"72%",top:"55%"}}>
+      <div style={{position:"fixed",left:"72%",top:"55%"}} className = "indexpos">
         <Image src="/CloseBracket.png" height={200} width={220.38709677419}></Image>
       </div>
       <div style={{position:"fixed",left:"25%",top:"53.7%"}} className="githubIcon">

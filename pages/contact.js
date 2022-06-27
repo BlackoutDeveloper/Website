@@ -7,7 +7,9 @@ export default function About() {
       <Head>
         <link rel="icon" href="/B logo.ico" />
       </Head>
-      <h1>BLACKOUT#0001</h1>
+      <div style={{position: "fixed", left: "35%", top: "10%"}}>
+        <Image src="/ContactNavig.png" width={700} height={191}></Image>
+      </div>
     </>
   )
 }

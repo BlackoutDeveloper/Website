@@ -36,11 +36,6 @@ const Navbar = () => {
               </Link>
       </div>
       <div className='floatAboveEverything'>
-        <Link href="/" passHref>
-          <StyledLink>
-            <Image src="/Home.png" width={244} height={90} layout="fixed"></Image>
-          </StyledLink>
-        </Link>
         <Link href="/about" passHref>
           <StyledLink>
           <Image src="/About.png" width={241} height={90} layout="fixed"></Image>
@@ -49,6 +44,11 @@ const Navbar = () => {
         <Link href="/contact" passHref>
           <StyledLink>
           <Image src="/ContactNavig.png" width={285} height={90} layout="fixed"></Image>
+          </StyledLink>
+        </Link>
+        <Link href="/rww" passHref>
+          <StyledLink>
+            <Image src="/rwwNav.png" width={285} height={116} layout="fixed"></Image>
           </StyledLink>
         </Link>
       </div>
