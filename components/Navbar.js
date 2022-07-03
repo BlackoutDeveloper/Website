@@ -38,17 +38,17 @@ const Navbar = () => {
       <div className='floatAboveEverything'>
         <Link href="/about" passHref>
           <StyledLink>
-          <Image src="/About.png" width={241} height={90} layout="fixed"></Image>
+          <Image src="/About.png" width={221} height={85} layout="fixed"></Image>
           </StyledLink>
         </Link>
         <Link href="/contact" passHref>
           <StyledLink>
-          <Image src="/ContactNavig.png" width={285} height={90} layout="fixed"></Image>
+          <Image src="/ContactNavig.png" width={250} height={85} layout="fixed"></Image>
           </StyledLink>
         </Link>
         <Link href="/rww" passHref>
           <StyledLink>
-            <Image src="/rwwNav.png" width={285} height={116} layout="fixed"></Image>
+            <Image src="/rwwNav.png" width={250} height={108} layout="fixed"></Image>
           </StyledLink>
         </Link>
       </div>
